@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    .inp {
+        margin-top: 15px;
+        min-height: 26px;
+    }
+      
+    .butt {
+        margin-top: 20px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        background-image: linear-gradient(to right,yellow,#91F6FD);
+    }
+      
+
+}
