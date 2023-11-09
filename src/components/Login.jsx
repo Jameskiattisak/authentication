@@ -12,11 +12,12 @@ function Login() {
         try {
           const userCredential = await signInWithEmailAndPassword(auth, email, password)
           const user = userCredential.user
-            console.log(user);
+          alert('LogIn successful!');
         } catch (error) {
           const errorCode = error.code
           const errorMessage = error.message
           console.log('errorMessage :', errorMessage)
+          alert('LogIn failed: ' + error.message);
         }
       }
 
