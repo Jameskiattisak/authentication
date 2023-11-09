@@ -4,6 +4,7 @@
     text-align: left;
 
     .inp {
+        color: black;
         margin-top: 15px;
         min-height: 26px;
     }
@@ -13,8 +14,20 @@
         -webkit-border-radius: 8px;
         -moz-border-radius: 8px;
         border-radius: 8px;
-        background-image: linear-gradient(to right,yellow,#91F6FD);
+        background: yellow;
     }
-      
+
+    .switchform {
+        color: red;
+        margin: 15px;
+        text-decoration-line: underline;
+        text-decoration-color: red;
+    }
+
+    .textalignright {
+        text-align: right;
+        margin-bottom: 60px;
+        margin-top: 10px;
+    }
 
 }
